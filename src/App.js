@@ -7,7 +7,7 @@ import Home from "./views/Home";
 function App() {
     return (
         <Router>
-            <div>
+            <div className="App">
                 <Navbar className="justify-content-center" bg="light" variant="light">
                     <Nav>
                         <Nav.Link href="/">Home</Nav.Link>
