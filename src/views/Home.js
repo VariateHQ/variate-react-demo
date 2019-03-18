@@ -5,8 +5,8 @@ import HomeContent from "../components/HomeContent";
 function Home() {
     return (
         <div className="home">
-            <Hero></Hero>
-            <HomeContent></HomeContent>
+            <Hero/>
+            <HomeContent/>
         </div>
     )
 }

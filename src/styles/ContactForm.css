@@ -1,0 +1,9 @@
+.el-button {
+    background-color: #265B8D !important;
+    border-color: #265B8D !important;
+}
+
+.el-checkbox {
+    margin-right: 15px;
+    margin-left: 0 !important;
+}
