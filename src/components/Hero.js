@@ -1,5 +1,6 @@
 import React from 'react';
-import styled from 'styled-components'
+import { useVariate } from '@variate/react';
+import styled from 'styled-components';
 
 const HeroImage = styled.div`
     width: 100%;
@@ -18,14 +19,20 @@ const HeroImage = styled.div`
     }
 `;
 
+function Hero({ defaultContent }) {
+    const { content } = useVariate('HomeHero', defaultContent);
 
-
-function Hero(props) {
     return (
-        <HeroImage props={props}>
-            <h1>Variate React Demo</h1>
+        <HeroImage>
+            <h1>{content.headline}</h1>
         </HeroImage>
     )
 }
+
+Hero.defaultProps = {
+    defaultContent: {
+        headline: 'This is the original boring headline, it would be awesome if we tested it!'
+    }
+};
 
 export default Hero;
