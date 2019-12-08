@@ -1,7 +1,8 @@
 {
   "name": "variate-react-demo",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "author": "Thomas Davis <tomjdavis27@gmail.com>",
   "dependencies": {
     "@variate/react": "^1.2.1",
     "element-react": "^1.4.34",
