@@ -10,7 +10,7 @@
     "history": "^4.10.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.1.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0"
   },
@@ -32,10 +32,10 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "cz-conventional-changelog": "^3.1.0",
+    "cz-conventional-changelog": "^3.2.0",
     "husky": "^4.2.5",
-    "react-hot-loader": "^4.12.20",
-    "standard-version": "^7.1.0"
+    "react-hot-loader": "^4.12.21",
+    "standard-version": "^8.0.0"
   },
   "config": {
     "commitizen": {

@@ -11,6 +11,12 @@ import config from './variate';
 
 const history = createBrowserHistory();
 
+const getAudience = path => ({
+    view: {
+        path
+    }
+});
+
 function App() {
     return (
         <VariateProvider
@@ -19,8 +25,8 @@ function App() {
             tracking={true}
             reporter={() => { return true; }}
             onViewChange={activate => {
-                activate({ view: window.location.pathname });
-                history.listen(location => activate({ view: location.pathname }));
+                activate(getAudience(window.location.pathname));
+                history.listen(location => activate(location.pathname));
             }}
         >
             <Router history={history}>

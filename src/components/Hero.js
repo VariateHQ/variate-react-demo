@@ -19,7 +19,7 @@ const HeroImage = styled.div`
 `;
 
 function Hero({ defaultContent }) {
-    const { variables } = useVariate('HomeHero', defaultContent);
+    const { variables } = useVariate('Hero', defaultContent);
 
     return (
         <HeroImage { ...variables }>
