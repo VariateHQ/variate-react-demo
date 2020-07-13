@@ -35,7 +35,7 @@
     "cz-conventional-changelog": "^3.1.0",
     "husky": "^4.2.5",
     "react-hot-loader": "^4.12.20",
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.1"
   },
   "config": {
     "commitizen": {
